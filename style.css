@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+h1{
+    margin-bottom: 2rem;
+
+}
+body{
+    background-color: #f4e4ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    
+}
+.container{
+    margin-top: 15vh;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    min-height: 40vh;
+    min-width: 45vh;
+}
+.form{
+    margin-top: 2rem 0 1rem 0;
+    padding-left: 0.5rem;   
+
+}
+.amount p{
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid lightgrey;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+
+}
+.dropdown i{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+
+}
+.dropdown p{
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
+
+
+
+.select-container img{
+    max-width: 2rem;
+
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border:1px solid lightgrey ;
+    
+
+}
+.msg{
+    margin:2rem 0 2rem 0;
+}
+.btn{
+    background-color: #E87461 ;
+    color: white;
+    height: 3rem;
+    border: 1px solid #7AC74F ;
+    font-size: 1.1rem;
+    font-weight: 600s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
